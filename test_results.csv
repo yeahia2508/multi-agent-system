@@ -1,0 +1,61 @@
+request_id,request_date,cash_balance,inventory_value,response
+1,2025-04-01,45059.7,4940.299999999999,The sale has been finalized successfully for the requested paper supplies.
+2,2025-04-03,45059.7,4940.299999999999,"The sale for 500 sheets of colorful poster paper has been finalized successfully. Delivery is scheduled for April 15, 2025."
+3,2025-04-04,45059.7,4940.299999999999,"
+Dear Customer,
+
+Thank you for your order request. Unfortunately, we are unable to fulfill your order of paper supplies due to insufficient inventory. Here are the details:
+
+- A4 Paper: Cannot fulfill the order. Available: 272, Requested: 10000 (Delivery Date: 2025-04-11)
+- A3 Paper: Cannot fulfill the order. Available: 0, Requested: 5000 (Delivery Date: 2025-04-11)
+- Printer Paper: Cannot fulfill the order. Available: 0, Requested: 500 (Delivery Date: 2025-04-08)
+
+We apologize for any inconvenience this may cause. If you have any questions or if you'd like to adjust your order, please feel free to contact us.
+
+Best regards,
+Your Team
+"
+4,2025-04-05,45059.7,4940.299999999999,"Order Summary:
+1. High-quality recycled cardstock: 500 sheets, $75.00, delivered by April 15, 2025.
+2. A4 Printer Paper: Out of Stock, estimated delivery on April 9, 2025."
+5,2025-04-05,45059.7,4940.299999999999,"The order for 500 sheets of colored paper and 300 sheets of cardstock has been successfully placed for delivery on April 15, 2025."
+6,2025-04-06,45059.7,4940.299999999999,"Order Summary:
+1. Colorful Construction Paper: 500 sheets - Quote: $35.00
+2. Cardstock: 200 sheets - Quote: $30.00
+3. White Printer Paper: 300 sheets - Status: Insufficient stock. Alternative arrangements needed."
+7,2025-04-07,45059.7,4940.299999999999,"Dear Customer,
+
+Thank you for your order request. Here are the details:
+
+Available items:
+- glossy A4 paper: $25.00 (500 sheets)
+- heavyweight cardstock: $30.00 (200 sheets)
+
+Your order has been successfully finalized for these items. We will ensure a timely delivery by April 15, 2025.
+Thank you!"
+8,2025-04-07,45059.7,4761.5,The order for paper supplies has been successfully finalized.
+9,2025-04-07,45059.7,4761.5,Order placed successfully for 100 sheets of A3 glossy paper and 50 packets of 100% recycled kraft paper envelopes. The A4 white printer paper is not available.
+13,2025-04-08,45059.7,4761.5,"Both sales finalized successfully: 500 sheets of A4 printing paper and 200 sheets of cardstock ordered for delivery on April 10, 2025."
+12,2025-04-08,45059.7,4761.5,"Successfully finalized orders for 200 sheets of colorful cardstock, 500 sheets of standard printer paper, and 100 paper napkins for delivery by April 15, 2025."
+10,2025-04-08,45059.7,4761.5,Order for 300 sheets of cardstock has been successfully placed. We are unable to fulfill the order for 500 sheets of glossy paper.
+11,2025-04-08,45059.7,4761.5,"The order for 500 sheets of A3 glossy paper and 300 sheets of A4 matte paper has been finalized successfully for delivery on April 15, 2025."
+14,2025-04-09,45059.7,4761.5,"We can fulfill your order for 500 sheets of cardstock at a total cost of $75.00. However, we are unable to fulfill your requests for A4 paper and poster paper due to insufficient stock."
+15,2025-04-12,50609.7,4206.499999999999,"Order for paper supplies has been placed successfully. Items included: 10,000 sheets of A4 white paper, 5,000 sheets of A3 colored paper, and 500 reams of cardboard for signage. Estimated delivery dates have been discussed."
+16,2025-04-13,50609.7,4206.499999999999,Order placed for 200 sheets of colorful construction paper. Full order not fulfilled due to insufficient stock of A4 printer paper and poster board.
+17,2025-04-14,50609.7,4206.499999999999,"The sale has been finalized successfully for the order totaling $122.00. Delivery is scheduled for April 15, 2025."
+18,2025-04-14,50704.7,4111.499999999999,"Dear Customer,
+
+Thank you for your order. We have successfully processed the following items for your upcoming ceremony:
+
+1. High-Quality White Cardstock (500 sheets): $75.00
+2. Colored Paper (200 sheets): $20.00
+
+Please note that we were unable to fulfill the request for standard printing paper due to insufficient inventory.
+Your supplies will be delivered by the requested date, April 15, 2025.
+
+If you have any further questions or modifications to your order, please let us know.
+
+Best regards,
+[Your Company]"
+19,2025-04-15,51614.70000999999,3466.5,The order for paper supplies has been processed successfully.
+20,2025-04-17,51614.70000999999,3466.5,"The order for 5,000 flyers, 2,000 posters, and 10,000 tickets has been finalized but cannot be fulfilled due to insufficient stock and a delivery date after the customer's request. Request date: 2025-04-17."
