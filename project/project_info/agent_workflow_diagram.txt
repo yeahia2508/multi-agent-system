@@ -1,0 +1,34 @@
+graph TD
+    User((Customer/User))
+    Orchestrator[Orchestrator Agent]
+    
+    %% Worker Agents
+    InvAgent[Inventory Agent]
+    QuoteAgent[Quoting Agent]
+    SalesAgent[Sales Agent]
+    
+    %% Flow
+    User -->|Query: 'Do you have 500 reams?'| Orchestrator
+    Orchestrator -->|Delegate: Check Stock| InvAgent
+    InvAgent -->|Return: Stock Level & Delivery Dates| Orchestrator
+    
+    Orchestrator -->|Delegate: Get Price/Discount| QuoteAgent
+    QuoteAgent -->|Return: Quote with Bulk Discount| Orchestrator
+    
+    Orchestrator -->|Delegate: Finalize Order| SalesAgent
+    SalesAgent -->|Action: Update DB & Calculate Revenue| Orchestrator
+    
+    Orchestrator -->|Final Response| User
+    
+    %% Tool Assignments
+    subgraph "Worker Tools (mapped to starter code)"
+    InvAgent -.-> T1(get_all_inventory)
+    InvAgent -.-> T2(get_stock_level)
+    InvAgent -.-> T3(get_supplier_delivery_date)
+    
+    QuoteAgent -.-> T4(search_quote_history)
+    
+    SalesAgent -.-> T5(create_transaction)
+    SalesAgent -.-> T6(get_cash_balance)
+    SalesAgent -.-> T7(generate_financial_report)
+    end
