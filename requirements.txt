@@ -1,0 +1,5 @@
+pandas
+numpy
+python-dotenv
+sqlalchemy
+smolagents[openai]==1.16.0
